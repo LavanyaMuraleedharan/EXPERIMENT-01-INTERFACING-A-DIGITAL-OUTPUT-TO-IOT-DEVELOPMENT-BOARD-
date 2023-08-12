@@ -78,13 +78,37 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+#include "main.h"
+
+
+void SystemClock_Config(void);
+
+
+
+int main(void)
+
+  HAL_Init();
+
+
+  SystemClock_Config();
+
+
+  while (1)
+  {
+    /* USER CODE END WHILE */
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5,GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5,GPIO_PIN_SET);
+	  HAL_Delay(1000);
+  }
+
+}
 
 
 
 ## Output  :
- 
- 
- 
- 
+ ![image](https://github.com/LavanyaMuraleedharan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/120103862/dd3acca0-3fc4-48d0-8264-9cd8fda09b78)
+
+
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
