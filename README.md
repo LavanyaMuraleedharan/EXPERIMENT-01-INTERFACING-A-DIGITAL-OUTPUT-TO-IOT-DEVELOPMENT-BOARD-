@@ -114,7 +114,7 @@ int main(void)
 
 
 ## Output  :
- ![image](https://github.com/LavanyaMuraleedharan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/120103862/dd3acca0-3fc4-48d0-8264-9cd8fda09b78)
+![image](https://github.com/LavanyaMuraleedharan/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/120103862/e42a967d-d825-4c2f-bb77-9da469c9d599)
 
 
 ## Result :
